@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.75/win64" 1706102558
+<REAPER_PROJECT 0.1 "6.75/win64" 1706093197
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,13 +16,13 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 4073.3618836543196
-  ZOOM 1.26404796083199 4315 0
+  CURSOR 2945.9255428021888
+  ZOOM 4.9616131248963 14348 0
   VZOOMEX 7 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
-  LOOP 0
+  LOOP 1
   LOOPGRAN 0 4
   RECORD_PATH "" ""
   <RECORD_CFG
@@ -59,8 +59,8 @@
   GLOBAL_AUTO -1
   TEMPO 155 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 4011.0724099701083 4026.2303047069504
-  SELECTION2 4011.0724099701083 4026.2303047069504
+  SELECTION 4168.335567864845 4195.4145152332667
+  SELECTION2 4168.335567864845 4195.4145152332667
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -142,7 +142,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 0 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -2207,64 +2207,58 @@
         HASDATA 1 960 QN
         CCINTERP 32
         POOLEDEVTS {F08C78B8-6373-4582-B3D0-70365AC70341}
-        E 8400 90 00 7f
-        E 7200 80 00 00
+        e 8400 90 00 7f
+        e 7200 80 00 00
         E 38160 90 57 7f
         E 40320 80 57 00
         E 0 90 58 7f
         E 5760 80 58 00
         E 0 90 59 7f
+        E 46080 80 59 00
+        E 0 90 5a 7f
+        E 46080 80 5a 00
+        E 0 90 57 7f
+        E 8640 80 57 00
+        E 0 90 59 7f
+        E 87360 80 59 00
+        E 0 90 58 7f
+        E 3840 80 58 00
+        E 0 90 5a 7f
+        E 19200 80 5a 00
+        E 0 90 58 7f
+        E 3840 80 58 00
+        E 0 90 5a 7f
+        E 19200 80 5a 00
+        E 0 90 58 7f
+        E 3840 80 58 00
+        E 0 90 57 7f
+        E 7680 80 57 00
+        E 0 90 58 7f
+        E 1920 80 58 00
+        E 240 90 59 7f
+        E 132240 80 59 00
+        E 0 90 57 7f
+        E 5760 80 57 00
+        E 0 90 59 7f
         E 43200 80 59 00
         E 0 90 58 7f
         E 2880 80 58 00
         E 0 90 5a 7f
-        E 40320 80 5a 00
-        E 0 90 5e 7f
-        E 2880 80 5e 00
-        E 0 90 5d 7f
-        E 11520 80 5d 00
-        E 0 90 59 7f
-        E 89280 80 59 00
-        E 0 90 5e 7f
-        E 2880 80 5e 00
-        E 0 90 5a 7f
         E 17280 80 5a 00
-        E 0 90 5e 7f
-        E 960 80 5e 00
-        E 0 90 5e 7f
-        E 4800 80 5e 00
-        E 0 90 5a 7f
-        E 17280 80 5a 00
-        E 0 90 5e 7f
-        E 2880 80 5e 00
-        E 0 90 5d 7f
-        E 9600 80 5d 00
         E 0 90 58 7f
-        E 1920 80 58 00
-        E 0 90 59 7f
-        E 132480 80 59 00
-        E 0 90 5d 7f
-        E 5760 80 5d 00
-        E 0 90 59 7f
-        E 43200 80 59 00
-        E 0 90 5e 7f
-        E 2880 80 5e 00
+        E 5760 80 58 00
         E 0 90 5a 7f
         E 17280 80 5a 00
-        E 0 90 5e 7f
-        E 5760 80 5e 00
-        E 0 90 5a 7f
-        E 17280 80 5a 00
-        E 0 90 5e 7f
-        E 5760 80 5e 00
+        E 0 90 58 7f
+        E 5760 80 58 00
         E 0 90 5c 7f
         E 40320 80 5c 00
-        E 0 90 5e 7f
-        E 14400 80 5e 00
+        E 0 90 59 7f
+        E 14400 80 59 00
         E 0 90 5b 7f
-        E 30720 80 5b 00
-        E 0 90 5d 7f
-        E 12000 80 5d 00
+        E 27840 80 5b 00
+        E 0 90 57 7f
+        E 14880 80 57 00
         E 46560 b0 7b 00
         CCINTERP 32
         CHASE_CC_TAKEOFFS 1
@@ -2272,11 +2266,11 @@
         IGNTEMPO 0 120 4 4
         SRCCOLOR 81
         VELLANE -1 100 0
-        CFGEDITVIEW -1663993.116128 0.000393 12 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW -2700190.600004 0.005318 66 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 0
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.25 2034 252 3787 1297 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.25 84 2 1837 1047 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
       >
     >
     <ITEM
@@ -2293,7 +2287,7 @@
       IID 2682
       NAME "MIDI untitled MIDI item-glued"
       VOLPAN 1 0 1 -1
-      SOFFS 237.4736842105267 752
+      SOFFS 237.4736842105267 752.00000000000182
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {1BB7FE25-E4EB-4605-8B5B-A9781C82474A}
@@ -2385,7 +2379,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 0.15361769889688 0 -1 -1 1
-    MUTESOLO 1 0 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
